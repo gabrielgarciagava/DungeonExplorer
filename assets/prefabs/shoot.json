@@ -3,6 +3,6 @@
     "type": "sprite",
     "position_x": 0,
     "position_y": 0,
-    "texture": "bluefire_spritesheet",
+    "texture": "whitefire_spritesheet",
     "group": "shoots"
 }

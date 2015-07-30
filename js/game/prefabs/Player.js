@@ -10,6 +10,8 @@ DungeonExplorer.Player = function (game_state, name, parameters, group) {
     this.game_state.game.physics.arcade.enable(this);
     this.body.allowGravity = false;
     this.body.setSize(24, 24, 0, 16);
+    this.body.maxVelocity = new Phaser.Point(200, 200);
+    this.body.moves = true;
     
     this.animations.add("walking_down", [0, 1, 2], 6, true);
     this.animations.add("walking_left", [12, 13, 14], 6, true);

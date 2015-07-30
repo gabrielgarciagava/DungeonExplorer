@@ -21,6 +21,8 @@ DungeonExplorer.PlayerAttack.prototype.update = function () {
     "use strict";
     if (this.game_state.game.input.keyboard.isDown(Phaser.Keyboard.SPACEBAR)) {
         if (this.attack_timer.paused) {
+                this.attack_timer.start();
+
             this.attack_timer.resume();
         }
     } else {

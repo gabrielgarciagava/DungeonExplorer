@@ -29,5 +29,5 @@ DungeonExplorer.DungeonState.prototype.create = function () {
 DungeonExplorer.DungeonState.prototype.render = function () {
     "use strict";
     
-    this.game.debug.body(this.prefabs.player);
+ //   this.game.debug.body(this.prefabs.player);
 };
